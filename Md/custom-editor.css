@@ -1,0 +1,120 @@
+/*
+Custom Gutenberg Code
+*/
+.editor-post-title__block .editor-post-title__input, .wp-block, h1, h2, h3, h4, h5, h6, p{
+	font-family: "Inter var", "Inter",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+/* MD ICONS */
+@font-face {
+	font-family: md-icon;
+	src: url('https://gauravtiwari.org/wp-content/themes/marketers-delight/lib/assets/icons/md.woff') format('woff');
+	font-style: normal;
+	font-weight: 400;
+}
+.has-drop-cap:not(:focus):first-letter {
+    font-weight: 600;
+    background: #c0392b!important;
+    padding: 20px;
+    border-radius: 3%;
+    color: #fff!important;
+    margin: 10px 20px 0 -30px;
+    font-size:3em
+}
+blockquote:before, .quote-box:before{
+	display:none;
+}
+blockquote, .quote-box{
+	font-style:normal;
+	font-weight:600;
+	color:#333;
+	border:0;
+	font-size:23px;
+	
+}
+h3.is-style-numbered::before{
+	display:inline-flex;
+	-webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: var(--gkt-numbered-headings--h2-number__width);
+    height: var(--gkt-numbered-headings--h2-number__height);
+    line-height: var(--gkt-numbered-headings--h2-number__line-height);
+    color: #333;
+    background-color: #f9e585;
+    border-radius: var(--gkt-numbered-headings--h2-number__border-radius);
+	border:2px solid;
+}
+.has-drop-cap:not(:focus):first-letter {
+    font-weight: 600;
+    background: #c0392b!important;
+    padding: 20px;
+    border-radius: 3%;
+    color: #fff!important;
+    margin: 10px 20px 0 -30px;
+    font-size:3em
+}
+.alignleft {
+    max-width:50%;
+    margin-left: -5%!important;
+}
+.alignright {
+    max-width:50%;
+    margin-right: -5%!important;
+}
+h2{
+	color:#c0392b;
+	font-size:26px;
+}
+h3{
+	font-size:23px;
+}
+h4{
+	font-size:20px;
+}
+.wp-block-group.has-background {
+    padding:1em;
+	border-radius:0.2em;
+}
+table td, table {
+    border:0.5px solid #333!important;
+}
+.wp-block-table{
+    margin-bottom:30px;
+}
+.list-cross li:before, .list-cancel li:before{
+	content:'\e810';
+	font-family: md-icon;
+	color: #c0392b;
+    position: absolute;
+    left: -32px;
+    top: 0;
+}
+.list-check, .list-cross, .list-cancel{
+	list-style-type:none;
+}
+.pull-right{
+	margin-right:-56px
+}
+.pull-left{
+	margin-left:-56px
+}
+.wp-block-image figcaption:before{
+	content: '\f256';
+font-family: md-icon; margin-right:10px;
+}
+.quote-box cite, blockquote cite {
+    font-size: 15px;
+    font-style: normal;
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
+	color:#666;
+}
+.quote-box cite:before, blockquote cite:before{content: '\e819'; font-family: md-icon; margin-right:10px}
+.wp-block-image figcaption{
+	font-style:normal;
+	color:#555;
+}
